@@ -28,6 +28,16 @@ public class CountryResponse {
     }
 
           String countryName;
+
+    public CountryResponse(String countryId, String countryName, String countryCode, String isActive, String isProvienceRequired, String phoneCode) {
+        this.countryId = countryId;
+        this.countryName = countryName;
+        this.countryCode = countryCode;
+        this.isActive = isActive;
+        this.isProvienceRequired = isProvienceRequired;
+        this.phoneCode = phoneCode;
+    }
+
           String countryCode;
           String isActive;
           String isProvienceRequired;
